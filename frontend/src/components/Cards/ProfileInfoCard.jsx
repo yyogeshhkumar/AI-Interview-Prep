@@ -12,11 +12,10 @@ const ProfileInfoCard = () => {
     navigate("/");
   };
 
-  // ✅ Resolve image safely
   const profileImage = user?.profileImageUrl
     ? user.profileImageUrl.startsWith("http")
       ? user.profileImageUrl
-      : `http://localhost:8000${user.profileImageUrl}`
+      : `${import.meta.env.VITE_API_URL}${user.profileImageUrl}`
     : "/default-avatar.png";
 
   return (
