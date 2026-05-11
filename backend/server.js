@@ -16,7 +16,7 @@ const app = express();
 // Middleware to handle CORS
 app.use(
   cors({
-    origin: "*",
+    origin: process.env.CLIENT_URL || "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
@@ -26,6 +26,10 @@ connectDB()
 
 // Middleware
 app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 
 //Routes
 app.use("/api/auth", authRoutes);
