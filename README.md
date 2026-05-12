@@ -8,7 +8,7 @@ The project was built using the MERN stack with OpenAI integration for generatin
 
 ## Live Demo
 - Live Website: https://ai-interview-prep-ten-nu.vercel.app
--GitHub Repository: https://github.com/yyogeshhkumar/AI-Interview-Prep
+- GitHub Repository: https://github.com/yyogeshhkumar/AI-Interview-Prep
 
 ---
 
