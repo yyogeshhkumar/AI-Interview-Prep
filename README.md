@@ -6,6 +6,25 @@ The project was built using the MERN stack with OpenAI integration for generatin
 
 ---
 
+## Live Demo
+- Live Website: https://ai-interview-prep-ten-nu.vercel.app
+-GitHub Repository: https://github.com/yyogeshhkumar/AI-Interview-Prep
+
+---
+
+## Demo Credentials
+
+You can use the following demo account to explore the application:
+
+ Email: Johnsingh@gmail.com
+ Password: 12345678
+
+Note: 
+- The demo account contains sample interview sessions and AI-generated responses for demonstration purposes.
+- AI-generated responses may occasionally fail due to limited API usage credits on the free tier.
+- Please avoid modifying account credentials or deleting existing demo data.
+
+
 ## Features
 
 - User authentication
