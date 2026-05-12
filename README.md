@@ -77,10 +77,10 @@ npm install
 Create a `.env` file inside the backend folder.
 
 ```env
-PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
-OPENAI_API_KEY=your_api_key
+OPENROUTER_API_KEY=your_api_key
+CLIENT_URL=http://localhost:5173
 ```
 
 ---
@@ -100,6 +100,26 @@ Start frontend:
 cd frontend
 npm run dev
 ```
+
+---
+
+## Screenshots
+
+### Home page 
+![Home Page](./screenshots/home.png)
+
+### Sign Up 
+![SignUp Page](./screenshots/signup.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Ai Questions Generation
+![Ai Questions](./screenshots/generatedQuestions.png)
+
+### AI Explainatioin Generation
+![AI Explaination](./screenshots/aiExplaination.png)
+
 
 ---
 
