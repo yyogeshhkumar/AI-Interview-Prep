@@ -16,7 +16,7 @@ The project was built using the MERN stack with OpenAI integration for generatin
 
 You can use the following demo account to explore the application:
 
- Email: Johnsingh@gmail.com
+ Email: johnsingh@gmail.com
  Password: 12345678
 
 Note: 
