@@ -33,7 +33,7 @@ const SignUp = ({ setCurrentPage }) => {
       if (profilePic) {
         const imgUploadRes = await uploadImage(profilePic);
         profileImageUrl =
-          imgUploadRes.imageUrl?.replace("import.meta.env.VITE_API_URL", "") || "";
+          imgUploadRes.imageUrl?.replace(`${import.meta.env.VITE_API_URL}`, "") || "";
       }
 
       const response = await axiosInstance.post(API_PATHS.AUTH.REGISTER, {
